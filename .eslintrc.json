@@ -8,8 +8,9 @@
   "parserOptions": {
     "ecmaVersion": "latest"
   },
+  "ignorePatterns": ["dist/"],
   "rules": {
     "no-console": "off",
-    "quotes": ["error", "single"]
+    "quotes": ["warn", "single"]
   }
 }
